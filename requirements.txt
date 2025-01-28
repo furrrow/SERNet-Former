@@ -63,7 +63,8 @@ contourpy==1.3.0
 crcmod==1.7
 cryptography==43.0.1
 cuda-python==12.2.1
-cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-24.4.1-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=57366e7ef09dc63e0b389aff20df6c37d91e2790065861ee31a4720149f5b694
+# cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-24.4.1-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=57366e7ef09dc63e0b389aff20df6c37d91e2790065861ee31a4720149f5b694
+cudf-cu12
 cufflinks==0.17.3
 cupy-cuda12x==12.2.0
 cvxopt==1.3.2
@@ -151,7 +152,8 @@ google-cloud-pubsub==2.23.1
 google-cloud-resource-manager==1.12.5
 google-cloud-storage==2.8.0
 google-cloud-translate==3.15.5
-google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz#sha256=07bb3e866a2fb3dc3072920a4722b4a4c9c2fc953a97253597f3e5391c3dd17c
+# google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz#sha256=07bb3e866a2fb3dc3072920a4722b4a4c9c2fc953a97253597f3e5391c3dd17c
+google-colab
 google-crc32c==1.6.0
 google-generativeai==0.7.2
 google-pasta==0.2.0
@@ -478,10 +480,13 @@ tokenizers==0.19.1
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.1
-torch @ https://download.pytorch.org/whl/cu121_full/torch-2.4.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=f3ed9a2b7f8671b2b32a2f036d1b81055eb3ad9b18ba43b705aa34bae4289e1a
-torchaudio @ https://download.pytorch.org/whl/cu121_full/torchaudio-2.4.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=da8c87c80a1c1376a48dc33eef30b03bbdf1df25a05bd2b1c620b8811c7b19be
+torch
+torchaudio
+torchvision
+# torch @ https://download.pytorch.org/whl/cu121_full/torch-2.4.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=f3ed9a2b7f8671b2b32a2f036d1b81055eb3ad9b18ba43b705aa34bae4289e1a
+# torchaudio @ https://download.pytorch.org/whl/cu121_full/torchaudio-2.4.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=da8c87c80a1c1376a48dc33eef30b03bbdf1df25a05bd2b1c620b8811c7b19be
 torchsummary==1.5.1
-torchvision @ https://download.pytorch.org/whl/cu121_full/torchvision-0.19.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=b8cc4bf381b75522995b601e07a1b433b5fd925dc3e34a7fa6cd22f449d65379
+# torchvision @ https://download.pytorch.org/whl/cu121_full/torchvision-0.19.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=b8cc4bf381b75522995b601e07a1b433b5fd925dc3e34a7fa6cd22f449d65379
 tornado==6.3.3
 tqdm==4.65.2
 traitlets==5.7.1
